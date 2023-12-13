@@ -1,0 +1,134 @@
+body {
+    background-color: black;
+    min-height: 10vh;
+    line-height: 20px;
+    font-family: "Lobster", cursive;
+}
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+    
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+header {
+    position: absolute;
+    top: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 100%;
+    padding: 40px 0;
+}
+
+header a {
+    color: #eee;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+header .signin {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+header button {
+    background-color: #010001;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+h1 {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 900px;
+    margin: 150px auto 0;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 20px;
+}
+
+.item .img img {
+    height: 200px;
+    transition: 0.5s;
+}
+
+.item .img {
+    background-image: linear-gradient(to top right, black, #ff0000);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.item .content {
+    background-color: #ffffff24;
+    border-radius: 30px;
+    padding: 50px 30px;
+    transform: translate(0, -50px);
+    backdrop-filter: blur(20px);
+    color: #fff;
+    text-align: center;
+}
+
+.title {
+    font-size: x-large;
+}
+
+.item .content .des {
+    opacity: .7;
+    margin: 10px 0;
+}
+
+.item .content .price {
+    font-size: large;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.item .content .add {
+    background-color: #ff0000;
+    padding: 20px;
+    color: #fff;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+}
+
+.item:hover img {
+    transform: translate(0, -50px);
+}
+
+.listPage {
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.listPage li {
+    background-color: #ffffffBD;
+    padding: 20px;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.listPage .active {
+    background-color: #B192EF;
+    color: #fff;
+}
